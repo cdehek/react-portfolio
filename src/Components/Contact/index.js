@@ -52,6 +52,7 @@ function ContactForm() {
               onBlur={handleChange}
               defaultValue={name}
               className="form-control"
+              style={{width: "40%"}}
             />
           </div>
           <div className="form-group">
@@ -62,6 +63,8 @@ function ContactForm() {
               onBlur={handleChange}
               defaultValue={email}
               className="form-control"
+              style={{width: "40%"}}
+
             />
           </div>
           <div className="form-group">
@@ -74,6 +77,8 @@ function ContactForm() {
               onBlur={handleChange}
               defaultValue={message}
               className="form-control"
+              style={{width: "40%"}}
+
             />
           </div>
           {errorMessage && (
