@@ -88,9 +88,8 @@ body {
 }
 
 .card-background {
-  text-align: center;
+  /* text-align: center; */
   font-size: 16px;
-  margin: 4px 2px;
   opacity: 1;
   transition: 0.5s;
 }
