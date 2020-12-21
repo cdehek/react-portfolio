@@ -5,8 +5,9 @@ import About from "./Components/About";
 import Portfolio from "./Components/Portfolio";
 import Contact from "./Components/Contact/";
 import Footer from "./Components/Footer";
-import Nav from "./Components/Nav";
+import Navigation from "./Components/Nav";
 import Resume from "./Components/Resume";
+import Snowfall from "react-snowfall";
 
 function App() {
   const [categories] = useState(["About Me", "Contact", "Portfolio", "Resume"]);
@@ -30,7 +31,8 @@ function App() {
 
   return (
     <div>
-      <Nav
+      <Snowfall />
+      <Navigation
         currentCategory={currentCategory}
         setCurrentCategory={setCurrentCategory}
         categories={categories}

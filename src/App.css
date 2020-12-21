@@ -73,7 +73,7 @@ body {
 
 /* PORTFOLIO CARDS STYLING */
 
-#project, {
+#project {
   background-color: #b2c3e2;
   border-radius: 10px;
 }
@@ -109,8 +109,8 @@ body {
 }
 
 .card-text {
-  color: #9dfff9;
-  font-weight: bold;
+  color: #e6912f;
+  font-weight: lighter;
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
@@ -122,7 +122,7 @@ body {
 }
 
 .navActive {
-  color: yellow;
+  color: cyan;
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
