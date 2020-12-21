@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  
 }
 
 .App-logo {
@@ -39,7 +38,162 @@
 }
 
 body {
-  background-color: #faf8d4;
-  /* text-align: center; */
+  background-color: #99b2dd;
+  margin-bottom: 100px;
+  font-family: cursive;
 }
 
+/* NAVBAR STYLING */
+
+#navigation {
+  background-image: url("./assets/navbar-bg.jpg");
+}
+
+#navigation a {
+  color: #e6912f;
+}
+#navigation span {
+  color: #e6912f;
+}
+/* ABOUT ME STYLING */
+
+.about {
+  font-family: cursive;
+}
+
+.about-me {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.portrait {
+  border-radius: 60px;
+  margin: 15px;
+}
+
+/* PORTFOLIO CARDS STYLING */
+
+#project {
+  background-color: #b2c3e2;
+  border-radius: 10px;
+}
+
+.card-img-overlay {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.card-img-overlay:hover {
+  opacity: 1;
+}
+
+.card-background {
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.card-background:hover {
+  opacity: 0;
+}
+
+#github-icon {
+  color: gold;
+}
+
+.card-title {
+  color: black;
+  text-shadow: 1px 0 0 cyan, 0 -1px 0 cyan, 0 1px 0 cyan, -1px 0 0 cyan;
+}
+
+.card-text {
+  color: #e6912f;
+  font-weight: lighter;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.category {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin: 5px 0;
+  line-height: 1.25;
+}
+
+.navActive {
+  color: cyan;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+/* CONTACT FORM STYLING */
+
+input {
+  font-size: 1rem;
+  margin: 15px 0px 0px 10px;
+  border: 1px solid #000000;
+  outline: none;
+  border-radius: 10px;
+  transition: box-shadow 0.2s;
+}
+
+#message {
+  border-radius: 10px;
+  margin: 15px 0px 0px 10px;
+  resize: none;
+}
+
+#contact {
+  font-family: cursive;
+}
+
+label {
+  font-family: cursive;
+  background-color: #b2c3e2;
+  padding: 5px 15px 5px 10px;
+  font-size: 150%;
+  border-radius: 5px;
+}
+
+/* START RESUME STYLING*/
+
+#resume, #about, #contact, #project {
+  background-color: #b2c3e2;
+  border-radius: 15px;
+}
+
+#about, #contact {
+  width: 250px;
+}
+
+#skills {
+  background-color: #b2c3e2;
+  border-radius: 15px;
+}
+
+
+/* START FOOTER STYLING*/
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: black;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contact-me a {
+  display: inline-block;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  font-size: 50px;
+  padding: 10px 50px 10px 0px;
+  color: #e6912f;
+  /* transition: .25s; */
+}
+
+.contact-me a:hover {
+  color: #8d80ad;
+}
