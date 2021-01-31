@@ -36,6 +36,14 @@ function Project() {
       link: "https://github.com/cdehek/javascript-password-generator",
       deployed: "https://cdehek.github.io/javascript-password-generator/",
     },
+    {
+      name: "Trackt",
+      fileName: "trackt-preview",
+      description: "Goal Tracking Social Media App",
+      src: "../../assets/trackt-preview.PNG",
+      link: "https://github.com/heather-everton/trackt",
+      deployed: "https://fierce-basin-22098.herokuapp.com/login",
+    },
   ];
 
   return (
